@@ -77,81 +77,57 @@
       }
 
       /* skills styling */
-      #print-only {
+      /*      #print-only {
         padding: 20px;
-        /* Add padding to the container */
         background-color: #e9f5ff;
-        /* Light blue background color */
         border-radius: 8px;
-        /* Rounded corners */
         border: 2px solid #3498db;
-        /* Blue border for distinction */
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        /* Subtle shadow */
       }
 
       #skills {
         margin: 0;
-        /* Remove default margin */
       }
 
       h2 {
         font-size: 26px;
-        /* Slightly larger font size */
         margin-bottom: 15px;
-        /* Space below the main heading */
         color: #2c3e50;
-        /* Darker text color */
         text-align: center;
-        /* Centered heading */
       }
 
       .skills-container {
         display: grid;
-        /* Use grid layout for better alignment */
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        /* Responsive grid */
         gap: 20px;
-        /* Space between skill categories */
       }
 
       .skill-category {
         background-color: #ffffff;
-        /* White background for each skill category */
         padding: 20px;
-        /* Padding inside each category */
         border-radius: 5px;
-        /* Rounded corners */
         border-left: 5px solid #3498db;
-        /* Left border for emphasis */
         transition: transform 0.2s ease, box-shadow 0.2s ease;
-        /* Animation on hover */
       }
 
       .skill-category:hover {
         transform: translateY(-3px);
-        /* Lift effect on hover */
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-        /* Stronger shadow on hover */
       }
 
       .skill-category h3 {
         margin: 0;
-        /* Remove default margin for the subheadings */
         color: #3498db;
-        /* Color for the subheadings */
       }
 
       .skill-category p {
         margin: 5px 0 0;
-        /* Space above and below the paragraph */
         color: #555;
-        /* Darker text color for better readability */
-      }
+      } */
 
       /* blogs styling */
 
-      #blogs ul {
+      /* #blogs ul {
         text-align: left;
       }
 
@@ -201,13 +177,12 @@
 
       .blog-post a {
         text-decoration: none;
-        /* Remove underline */
         color: #3498db;
-      }
-
+      } */
+      /*
       .blog-post a:hover {
         text-decoration: underline;
-      }
+      } */
 
       @media print {
         #socials a {
@@ -237,17 +212,21 @@
 
     <section id="socials">
       <a href="https://github.com/amoako-franque" target="_blank">
-        <img src="/images/icons/github.svg" alt="GitHub" />
+        <img src="./images/icons/github.svg" alt="GitHub" />
         <span class="print-only">github.com/amoako-franque</span>
+        <img src="./images/icons/icons8-node-js-256.svg" alt="node">
+        <img src="./images/icons/icons8-x-150.svg" alt="node">
+        <img src="./images/icons/icons8-github-100.svg" alt="node">
       </a>
       <a href="https://x.com/armoako" target="_blank">
-        <img src="/images/icons/twitter.svg" alt="x" />
+        <img src="./images/icons/twitter.svg" alt="twitter" />
         <span class="print-only">x.com/armoako</span>
       </a>
 
 
       <a href="https://www.linkedin.com/in/frank-amoako/" target="_blank">
-        <img src="/images/icons/linkedin.svg" alt="LinkedIn" />
+        <img src="./images/icons/linkedin.svg" alt="LinkedIn" />
+
         <span class="print-only">linkedin.com/in/frank-amoako</span>
       </a>
     </section>
@@ -396,7 +375,7 @@
       <div class="project">
         <h3>
           Invoice API
-          <img src="/images/icons/nodejs.svg" alt="nodejs" />
+          <img src="./images/icons/nodejs.svg" alt="nodejs" />
         </h3>
         <p>
         <h4>Project Overview</h4> Developed a user-friendly invoice application designed to streamline the invoicing
@@ -421,7 +400,7 @@
       <div class="project">
         <h3>
           Event Booking App
-          <img src="/images/icons/go.svg" alt="Go" />
+          <img src="./images/icons/go.svg" alt="Go" />
         </h3>
         <p>
           A simple server for booking events
@@ -435,7 +414,7 @@
       <div class="project">
         <h3>
           School Management API
-          <img src="/images/icons/nodejs.svg" alt="Go" />
+          <img src="./images/icons/nodejs.svg" alt="nodejs" />
         </h3>
         <p>
           An api server for managing school data
@@ -452,7 +431,8 @@
 
       <div class="project">
         <h3>
-          Chacha Slot <img src="/images/icons/javascript.svg" alt="JavaScript" />
+          Chacha Slot <img src="./images/icons/javascript.svg" alt="JavaScript" />
+
         </h3>
         <p>
           it's a simple script to have fun playing slots. bet with any amount and select possible draw numbers. it's fun
@@ -468,7 +448,7 @@
 
     <hr />
 
-    <section id="blogs">
+    <!-- <section id="blogs">
       <h2>Blogs</h2>
       <p>Nothing here yet. Will be updated soon.</p>
       <div class="blog-container">
@@ -487,9 +467,9 @@
           <p>Explore JavaScript array methods through practical implementation examples.</p>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <!-- <section id="blogs">
+    <section id="blogs">
       <h2>blogs</h2>
 
       <p>Nothing here yet. will be updated soon </p>
@@ -505,8 +485,8 @@
             target="_blank">Understand JavaScript Array Methods By Implementing Them</a>
         </li>
 
-      </ul> -->
-    <!-- </section>  -->
+      </ul>
+    </section>
 
     <hr class="no-print" />
 
